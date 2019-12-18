@@ -19,6 +19,7 @@ void draw() {
   a= a+.001;
   MakeHouse h = new MakeHouse();
   MakeGround n = new MakeGround();
+ BigSnow snow = new BigSnow();
  
   rotateX(-.3);
   rotateY(a);
@@ -28,6 +29,7 @@ void draw() {
 n.makeGround();
 h.makeHouse(0,-12,0,20);
 h.makeRoof();
-//h.makeDoor();
+//snow.display();
+h.makeDoor();
 
 }
