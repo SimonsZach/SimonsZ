@@ -7,6 +7,7 @@ public void makeHouse(int x, int y, int z, int size) {
 
 pushMatrix();
 translate(x,y,z);
+stroke(80,40,0);
 fill(85,45,0);
 box(size);
 popMatrix();
